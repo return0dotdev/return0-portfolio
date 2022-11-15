@@ -1,0 +1,154 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f9f4f0;
+    height: auto;
+}
+
+.navbar {
+    width: auto;
+    height: 80px;
+    display: flex;
+}
+
+.navbar-left {
+    left: 0;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.navbar-right {
+    display: flex;
+    width: 20%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.banner {
+    width: auto;
+    height: 100%;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    /* background-color: cadetblue; */
+}
+
+.banner-left {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+}
+
+.banner-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 300px;
+}
+
+.img-banner {
+    justify-items: flex-end;
+    width: auto;
+}
+
+.content {
+    width: auto;
+    height: 400px;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+}
+
+.content-left {
+    left: 0;
+    width: 40%;
+    height: auto;
+    /* border-right: 1px solid black; */
+}
+
+.content-right {
+    width: 60%;
+    height: auto;
+}
+
+.btn-explore {
+    /* display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px; */
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: black;
+    font-weight: bolder;
+    font-size:larger;
+    color: aliceblue
+}
+
+.btn-connect-wallet {
+    width: 180px;
+    height: 50px;
+    border: 0;
+    background-color: black;
+    font-weight: bolder;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.txt-banner {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navbar-left-content {
+    /* background-color:brown; */
+    /* color:#f9f4f0; */
+    font-size: larger;
+    font-weight: normal;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    gap: 15px;
+    width: 50%;
+}
+
+.img-logo-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar-left-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    width: 50%;
+    align-items: flex-end;
+    justify-items: flex-end;
+    cursor: pointer;
+}
